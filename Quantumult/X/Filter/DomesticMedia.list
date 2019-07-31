@@ -3,3 +3,4 @@
 DOMAIN-SUFFIX,iqiyi.com,DomesticMedia
 # > bilibili
 DOMAIN-SUFFIX,bilibili.com,DomesticMedia
+DOMAIN,upos-hz-mirrorakam.akamaized.net,DomesticMedia

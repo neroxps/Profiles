@@ -31,7 +31,6 @@ DOMAIN-SUFFIX,bdstatic.com,DIRECT
 # > bilibili
 DOMAIN-SUFFIX,acgvideo.com,DIRECT
 DOMAIN-SUFFIX,biliapi.com,DIRECT
-DOMAIN-SUFFIX,bilibili.com,DIRECT
 DOMAIN-SUFFIX,hdslb.com,DIRECT
 # > Blizzard
 DOMAIN-SUFFIX,blizzard.com,DIRECT
@@ -57,7 +56,6 @@ DOMAIN-SUFFIX,21cn.com,DIRECT
 DOMAIN-SUFFIX,hitv.com,DIRECT
 DOMAIN-SUFFIX,mgtv.com,DIRECT
 # > iQiyi
-DOMAIN-SUFFIX,iqiyi.com,DIRECT
 DOMAIN-SUFFIX,iqiyipic.com,DIRECT
 DOMAIN-SUFFIX,71.am.com,DIRECT
 # > JD
