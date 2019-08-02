@@ -8,8 +8,6 @@ DOMAIN-SUFFIX,mzstatic.com,Apple
 DOMAIN,guzzoni.apple.com,Apple
 # > geod
 DOMAIN-SUFFIX,ls.apple.com,Apple
-# > TestFlight
-DOMAIN,testflight.apple.com,Apple
 # > iTunes Store and App Store
 DOMAIN-SUFFIX,itunes.apple.com,Apple
 # > Apple Music

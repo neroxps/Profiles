@@ -930,6 +930,8 @@ Rule:
 
 # (The Most Popular Sites)
 # > Apple
+# >> TestFlight
+DOMAIN,testflight.apple.com,PROXY
 # >> Apple URL Shortener
 - DOMAIN-SUFFIX,appsto.re,PROXY
 # >> iBooks Store download
@@ -1073,8 +1075,6 @@ Rule:
 - DOMAIN,guzzoni.apple.com,Apple
 # > geod
 - DOMAIN-SUFFIX,ls.apple.com,Apple
-# > TestFlight
-- DOMAIN,testflight.apple.com,Apple
 # > iTunes Store and App Store
 - DOMAIN-SUFFIX,itunes.apple.com,Apple
 # > Apple Music
