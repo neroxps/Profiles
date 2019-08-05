@@ -417,6 +417,8 @@ Rule:
 - DOMAIN-SUFFIX,bbci.co.uk,ForeignMedia
 - DOMAIN-KEYWORD,bbcfmt,ForeignMedia
 - DOMAIN-KEYWORD,uk-live,ForeignMedia
+# > DAZN
+- DOMAIN-SUFFIX,dazn.com,ForeignMedia
 # > encoreTVB
 # USER-AGENT,encoreTVB*,ForeignMedia
 - DOMAIN-SUFFIX,encoretvb.com,ForeignMedia
