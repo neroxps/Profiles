@@ -51,7 +51,7 @@ Android：[Kitsunebi](https://play.google.com/store/apps/details?id=fun.kitsuneb
 |                         Quantumult X                         |                              无                              | [Filter Remote](https://github.com/ConnersHua/Profiles/tree/master/Quantumult/X/Filter/README.md) \| [Rewrite](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Rewrite.conf) |                              无                              |
 | Shadowrocket \| Pepi \| [快捷指令](https://www.icloud.com/shortcuts/b50d84fb063e469891f8600ab089a684) | [Basic](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Shadow/Basic.conf) | [Pro](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Shadow/Pro.conf) | [BacktoCN](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Shadow/BacktoCN.conf) |
 | Surge 2 \| [快捷指令](https://www.icloud.com/shortcuts/244585386fef4058abc9ac4b2f47ca56) | [Basic](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Basic.conf) | [Pro](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Pro.conf) | [BacktoCN](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/BacktoCN.conf) |
-| Surge 3+ \| [快捷指令](https://www.icloud.com/shortcuts/5e2e1a366a5e457ca60170925736ba68) |                              无                              | [Surge3](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Surge3.conf) |                              无                              |
+| Surge 3+ \| [快捷指令](https://www.icloud.com/shortcuts/6acc9053ff6e487ea6b0f43c2f84b72c) |                              无                              | [Surge3](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Surge3.conf) |                              无                              |
 
 ## 说明
 
@@ -121,6 +121,10 @@ Android：[Kitsunebi](https://play.google.com/store/apps/details?id=fun.kitsuneb
 > 7.Clash 连接不上内网服务器
 
 移除掉配置内的 DNS 配置。
+
+> 8.打开「淘宝」等阿里巴巴系应用时遇到「访问被拒绝」、「请检查是否使用了代理」等提示
+
+部分「阿里云」节点会导致此问题。
 
 ------
 
