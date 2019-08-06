@@ -108,6 +108,7 @@ DOMAIN-SUFFIX,pbs.org,ForeignMedia
 # > Pornhub
 DOMAIN-SUFFIX,phncdn.com,ForeignMedia
 DOMAIN-SUFFIX,pornhub.com,ForeignMedia
+DOMAIN-SUFFIX,pornhubpremium.com,ForeignMedia
 # > Twitch
 DOMAIN-SUFFIX,twitch.tv,ForeignMedia
 DOMAIN-SUFFIX,twitchcdn.net,ForeignMedia
