@@ -618,6 +618,7 @@ Rule:
 - IP-CIDR,203.104.144.0/21,PROXY
 # > Other
 - DOMAIN-SUFFIX,4shared.com,PROXY
+- DOMAIN-SUFFIX,520cc.cc,PROXY
 - DOMAIN-SUFFIX,881903.com,PROXY
 - DOMAIN-SUFFIX,9cache.com,PROXY
 - DOMAIN-SUFFIX,9gag.com,PROXY
@@ -636,8 +637,8 @@ Rule:
 - DOMAIN-SUFFIX,archive.org,PROXY
 - DOMAIN-SUFFIX,arte.tv,PROXY
 - DOMAIN-SUFFIX,artstation.com,PROXY
-- DOMAIN-SUFFIX,ask.com,PROXY
 - DOMAIN-SUFFIX,arukas.io,PROXY
+- DOMAIN-SUFFIX,ask.com,PROXY
 - DOMAIN-SUFFIX,avgle.com,PROXY
 - DOMAIN-SUFFIX,badoo.com,PROXY
 - DOMAIN-SUFFIX,bandwagonhost.com,PROXY
@@ -688,6 +689,7 @@ Rule:
 - DOMAIN-SUFFIX,discordapp.net,PROXY
 - DOMAIN-SUFFIX,disqus.com,PROXY
 - DOMAIN-SUFFIX,dns2go.com,PROXY
+- DOMAIN-SUFFIX,dowjones.com,PROXY
 - DOMAIN-SUFFIX,dropbox.com,PROXY
 - DOMAIN-SUFFIX,dropboxusercontent.com,PROXY
 - DOMAIN-SUFFIX,duckduckgo.com,PROXY
@@ -708,6 +710,7 @@ Rule:
 - DOMAIN-SUFFIX,flitto.com,PROXY
 - DOMAIN-SUFFIX,foreignpolicy.com,PROXY
 - DOMAIN-SUFFIX,friday.tw,PROXY
+- DOMAIN-SUFFIX,ftchinese.com,PROXY
 - DOMAIN-SUFFIX,gate.io,PROXY
 - DOMAIN-SUFFIX,getlantern.org,PROXY
 - DOMAIN-SUFFIX,getsync.com,PROXY
@@ -876,6 +879,7 @@ Rule:
 - DOMAIN-SUFFIX,xvideos.com,PROXY
 - DOMAIN-SUFFIX,yahoo.com,PROXY
 - DOMAIN-SUFFIX,yandex.ru,PROXY
+- DOMAIN-SUFFIX,ycombinator.com,PROXY
 - DOMAIN-SUFFIX,yesasia.com,PROXY
 - DOMAIN-SUFFIX,yes-news.com,PROXY
 - DOMAIN-SUFFIX,yomiuri.co.jp,PROXY
@@ -1047,7 +1051,6 @@ Rule:
 - DOMAIN-SUFFIX,flickriver.com,PROXY
 - DOMAIN-SUFFIX,focustaiwan.tw,PROXY
 - DOMAIN-SUFFIX,free.fr,PROXY
-- DOMAIN-SUFFIX,ftchinese.com,PROXY
 - DOMAIN-SUFFIX,gigacircle.com,PROXY
 - DOMAIN-SUFFIX,hk-pub.com,PROXY
 - DOMAIN-SUFFIX,hosting.co.uk,PROXY
@@ -1061,15 +1064,17 @@ Rule:
 - DOMAIN-SUFFIX,myactimes.com,PROXY
 - DOMAIN-SUFFIX,newsblur.com,PROXY
 - DOMAIN-SUFFIX,now.im,PROXY
+- DOMAIN-SUFFIX,nowe.com,PROXY
 - DOMAIN-SUFFIX,redditlist.com,PROXY
-- DOMAIN-SUFFIX,smartmailcloud.com,PROXY
 - DOMAIN-SUFFIX,signal.org,PROXY
+- DOMAIN-SUFFIX,smartmailcloud.com,PROXY
 - DOMAIN-SUFFIX,sparknotes.com,PROXY
 - DOMAIN-SUFFIX,streetvoice.com,PROXY
 - DOMAIN-SUFFIX,supertop.co,PROXY
 - DOMAIN-SUFFIX,tv.com,PROXY
 - DOMAIN-SUFFIX,typepad.com,PROXY
 - DOMAIN-SUFFIX,udnbkk.com,PROXY
+- DOMAIN-SUFFIX,urbanairship.com,PROXY
 - DOMAIN-SUFFIX,whispersystems.org,PROXY
 - DOMAIN-SUFFIX,wikia.com,PROXY
 - DOMAIN-SUFFIX,wn.com,PROXY
@@ -1147,6 +1152,7 @@ Rule:
 # > bilibili
 - DOMAIN-SUFFIX,acgvideo.com,DIRECT
 - DOMAIN-SUFFIX,biliapi.com,DIRECT
+- DOMAIN-SUFFIX,biliapi.net,DIRECT
 - DOMAIN-SUFFIX,bilibili.com,DIRECT
 - DOMAIN-SUFFIX,hdslb.com,DIRECT
 # > Blizzard
@@ -1228,6 +1234,7 @@ Rule:
 - DOMAIN-SUFFIX,steamusercontent.com,DIRECT
 - DOMAIN-SUFFIX,steamcontent.com,DIRECT
 - DOMAIN-SUFFIX,steamstatic.com,DIRECT
+- DOMAIN-SUFFIX,steamcdn-a.akamaihd.net,DIRECT
 # > Tencent
 # USER-AGENT,MicroMessenger%20Client,DIRECT
 # USER-AGENT,WeChat*,DIRECT
@@ -1260,6 +1267,7 @@ Rule:
 - DOMAIN,speedtest.macpaw.com,DIRECT
 # > Other
 - DOMAIN-SUFFIX,cn,DIRECT
+- DOMAIN-SUFFIX,8686c.com,DIRECT
 - DOMAIN-SUFFIX,aixifan.com,DIRECT
 - DOMAIN-SUFFIX,beitaichufang.com,DIRECT
 - DOMAIN-SUFFIX,booking.com,DIRECT
@@ -1267,7 +1275,6 @@ Rule:
 - DOMAIN-SUFFIX,cailianpress.com,DIRECT
 - DOMAIN-SUFFIX,chunyu.mobi,DIRECT
 - DOMAIN-SUFFIX,chushou.tv,DIRECT
-- DOMAIN-SUFFIX,cloudflare.com,DIRECT
 - DOMAIN-SUFFIX,cmbchina.com,DIRECT
 - DOMAIN-SUFFIX,cmbimg.com,DIRECT
 - DOMAIN-SUFFIX,ctrip.com,DIRECT
@@ -1280,6 +1287,7 @@ Rule:
 - DOMAIN-SUFFIX,futunn.com,DIRECT
 - DOMAIN-SUFFIX,geilicdn.com,DIRECT
 - DOMAIN-SUFFIX,hicloud.com,DIRECT
+- DOMAIN-SUFFIX,hostbuf.com,DIRECT
 - DOMAIN-SUFFIX,huya.com,DIRECT
 - DOMAIN-SUFFIX,infinitynewtab.com,DIRECT
 - DOMAIN-SUFFIX,ithome.com,DIRECT
@@ -1305,7 +1313,6 @@ Rule:
 - DOMAIN-SUFFIX,tianyancha.com,DIRECT
 - DOMAIN-SUFFIX,udacity.com,DIRECT
 - DOMAIN-SUFFIX,uning.com,DIRECT
-- DOMAIN-SUFFIX,v2ex.com,DIRECT
 - DOMAIN-SUFFIX,weather.com,DIRECT
 - DOMAIN-SUFFIX,weidian.com,DIRECT
 - DOMAIN-SUFFIX,xmcdn.com,DIRECT
@@ -1314,6 +1321,7 @@ Rule:
 - DOMAIN-SUFFIX,zhihu.com,DIRECT
 - DOMAIN-SUFFIX,zhimg.com,DIRECT
 - DOMAIN-SUFFIX,zhuihd.com,DIRECT
+- DOMAIN,download.jetbrains.com,DIRECT
 
 # Local Area Network
 - DOMAIN-SUFFIX,local,DIRECT

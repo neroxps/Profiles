@@ -42,6 +42,7 @@ DOMAIN-SUFFIX,bdstatic.com
 # > bilibili
 DOMAIN-SUFFIX,acgvideo.com
 DOMAIN-SUFFIX,biliapi.com
+DOMAIN-SUFFIX,biliapi.net
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,hdslb.com
 # > Blizzard
@@ -123,6 +124,7 @@ DOMAIN-SUFFIX,steamgames.com
 DOMAIN-SUFFIX,steamusercontent.com
 DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
 # > Tencent
 USER-AGENT,MicroMessenger%20Client
 USER-AGENT,WeChat*
@@ -155,6 +157,7 @@ DOMAIN-SUFFIX,netspeedtestmaster.com
 DOMAIN,speedtest.macpaw.com
 # > Other
 DOMAIN-SUFFIX,cn
+DOMAIN-SUFFIX,8686c.com
 DOMAIN-SUFFIX,aixifan.com
 DOMAIN-SUFFIX,beitaichufang.com
 DOMAIN-SUFFIX,booking.com
@@ -162,7 +165,6 @@ DOMAIN-SUFFIX,bstatic.com
 DOMAIN-SUFFIX,cailianpress.com
 DOMAIN-SUFFIX,chunyu.mobi
 DOMAIN-SUFFIX,chushou.tv
-DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cmbchina.com
 DOMAIN-SUFFIX,cmbimg.com
 DOMAIN-SUFFIX,ctrip.com
@@ -175,6 +177,7 @@ DOMAIN-SUFFIX,eastmoney.com
 DOMAIN-SUFFIX,futunn.com
 DOMAIN-SUFFIX,geilicdn.com
 DOMAIN-SUFFIX,hicloud.com
+DOMAIN-SUFFIX,hostbuf.com
 DOMAIN-SUFFIX,huya.com
 DOMAIN-SUFFIX,infinitynewtab.com
 DOMAIN-SUFFIX,ithome.com
@@ -200,7 +203,6 @@ DOMAIN-SUFFIX,teamviewer.com
 DOMAIN-SUFFIX,tianyancha.com
 DOMAIN-SUFFIX,udacity.com
 DOMAIN-SUFFIX,uning.com
-DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,weather.com
 DOMAIN-SUFFIX,weidian.com
 DOMAIN-SUFFIX,xmcdn.com
@@ -209,3 +211,4 @@ DOMAIN-SUFFIX,zhangzishi.cc
 DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,zhimg.com
 DOMAIN-SUFFIX,zhuihd.com
+DOMAIN,download.jetbrains.com
