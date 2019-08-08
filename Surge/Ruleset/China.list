@@ -108,6 +108,7 @@ DOMAIN-SUFFIX,ydstatic.com
 # > Sina
 DOMAIN-SUFFIX,sina.com
 DOMAIN-SUFFIX,weibo.com
+DOMAIN-SUFFIX,weibocdn.com
 # > Sohu
 DOMAIN-SUFFIX,sohu.com
 DOMAIN-SUFFIX,sohucs.com
