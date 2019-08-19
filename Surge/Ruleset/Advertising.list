@@ -596,9 +596,6 @@ URL-REGEX,^https?:\/\/api\.vistopia\.com\.cn\/api\/v\d\/home\/advertisement
 # L
 # > Le
 URL-REGEX,^https?:\/\/.+\/letv-gug\/
-# > luckin coffee(59.151.53.6,218.11.3.70)
-URL-REGEX,^https?:\/\/.+\/resource\/m\/sys\/app\/adpos
-URL-REGEX,^https?:\/\/.+\/resource\/m\/promo\/adsense
 # > 来疯直播
 URL-REGEX,^https?:\/\/api\.laifeng\.com\/v\d\/start\/ads
 # > 懒投资
@@ -737,6 +734,7 @@ URL-REGEX,^https?:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/buttons
 URL-REGEX,^https?:\/\/qt\.qq\.com\/lua\/mengyou\/get_splash_screen_info
 # >> Tencent Maps
 URL-REGEX,^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/app\/activity\/
+URL-REGEX,^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/splash\/
 # >> Tencent QQLive
 URL-REGEX,^https?:\/\/btrace.qq.com
 URL-REGEX,^https?:\/\/vv\.video\.qq\.com\/getvmind\?
@@ -831,3 +829,5 @@ URL-REGEX,^https?:\/\/api\.zhuishushenqi\.com\/user\/bookshelf-updated
 URL-REGEX,^https?:\/\/itunes\.apple\.com\/lookup\?id=575826903
 # > 作业帮
 URL-REGEX,^https?:\/\/www\.zybang\.com\/adx\/
+# > 最右
+URL-REGEX,^https?:\/\/api\.izuiyou\.com\/ad\/
