@@ -1,4 +1,4 @@
-# > Paypal
-USER-AGENT,PayPal*,Paypal
-DOMAIN-KEYWORD,paypal,Paypal
-DOMAIN-SUFFIX,paypal.com,Paypal
+# > PayPal
+USER-AGENT,PayPal*,PayPal
+DOMAIN-KEYWORD,paypal,PayPal
+DOMAIN-SUFFIX,paypal.com,PayPal
