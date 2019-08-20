@@ -84,6 +84,28 @@ Android：[Kitsunebi](https://play.google.com/store/apps/details?id=fun.kitsuneb
 
 
 
+### 关于 Surge Ruleset 和 Quantumult X Filter Remote 排序
+
+**要求**排序如下：
+
+1. Unbreak.list
+2. Advertising.list
+3. Hijacking.list
+4. ForeignMedia.list
+5. DomesticMedia.list
+6. Global.list
+7. Apple.list
+8. Global.list
+9. China.list
+
+如需细化流媒体如「Youtube.list」需要加在「ForeignMedia.list」之前。
+
+如需应用类的如「Telegram.list」、「Google.list」、「PayPal.list」需要加在「Global.list」之前。
+
+------
+
+
+
 ### 常见问题
 
 > 1.遇到连接公共场所 Wi-Fi 时验证页面无法显示？
@@ -124,7 +146,7 @@ Android：[Kitsunebi](https://play.google.com/store/apps/details?id=fun.kitsuneb
 
 > 8.打开「淘宝」等阿里巴巴系应用时遇到「访问被拒绝」、「请检查是否使用了代理」等提示
 
-部分「阿里云」节点会导致此问题。
+部分「阿里云」节点会导致此问题，如遇此问题主节点换成其他的。
 
 ------
 
