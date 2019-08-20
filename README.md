@@ -98,9 +98,11 @@ Android：[Kitsunebi](https://play.google.com/store/apps/details?id=fun.kitsuneb
 8. Global.list
 9. China.list
 
-如需细化流媒体如「Youtube.list」需要加在「ForeignMedia.list」之前。
+**说明**
 
-如需应用类的如「Telegram.list」、「Google.list」、「PayPal.list」需要加在「Global.list」之前。
+- 如**不需要**代理 Apple 服务可不加「Apple.list」，若加入必须在「Global.list」之后「China.list」之前。
+- 如需细化流媒体如「Youtube.list」需要加在「ForeignMedia.list」之前。
+- 如需应用类的如「Telegram.list」、「Google.list」、「PayPal.list」需要加在「Global.list」之前。
 
 ------
 
