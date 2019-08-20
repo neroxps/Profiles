@@ -504,9 +504,9 @@ URL-REGEX,^https?:\/\/daoyu\.sdo\.com\/api\/userCommon\/getAppStartAd
 URL-REGEX,^https?:\/\/dxy\.com\/app\/i\/ask\/biz\/feed\/launch
 
 # E
-# > eLong(123.59.31.1,119.18.193.135)
-URL-REGEX,^https?:\/\/mobile-api2011\.elong\.com\/(adgateway|adv)\/
-URL-REGEX,^https?:\/\/(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})(\.(2(5[0-5]{1}|[0-4]\d{1})|[0-1]?\d{1,2})){3}\/(adgateway|adv)\/
+# > eLong
+URL-REGEX,^https?:\/\/123\.59\.31\.1\/(adgateway|adv)\/
+URL-REGEX,^https?:\/\/119\.18\.193\.135\/(adgateway|adv)\/
 
 # F
 # > Foodie
