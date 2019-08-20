@@ -95,7 +95,6 @@ Android：[Kitsunebi](https://play.google.com/store/apps/details?id=fun.kitsuneb
 5. DomesticMedia.list
 6. Global.list
 7. Apple.list
-8. Global.list
 9. China.list
 
 **说明**
