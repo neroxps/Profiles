@@ -199,8 +199,10 @@ Rule:
 - DOMAIN-SUFFIX,4336wang.cn,Hijacking
 - DOMAIN-SUFFIX,51chumoping.com,Hijacking
 - DOMAIN-SUFFIX,51mld.cn,Hijacking
+- DOMAIN-SUFFIX,51mypc.cn,Hijacking
 - DOMAIN-SUFFIX,58mingri.cn,Hijacking
 - DOMAIN-SUFFIX,58mingtian.cn,Hijacking
+- DOMAIN-SUFFIX,5vl58stm.com,Hijacking
 - DOMAIN-SUFFIX,6d63d3.com,Hijacking
 - DOMAIN-SUFFIX,7gg.cc,Hijacking
 - DOMAIN-SUFFIX,91veg.com,Hijacking
@@ -224,6 +226,7 @@ Rule:
 - DOMAIN-SUFFIX,dsaeerf.com,Hijacking
 - DOMAIN-SUFFIX,dugesheying.com,Hijacking
 - DOMAIN-SUFFIX,dv8c1t.cn,Hijacking
+- DOMAIN-SUFFIX,echatu.com,Hijacking
 - DOMAIN-SUFFIX,erdoscs.com,Hijacking
 - DOMAIN-SUFFIX,fan-yong.com,Hijacking
 - DOMAIN-SUFFIX,feih.com.cn,Hijacking
@@ -232,7 +235,9 @@ Rule:
 - DOMAIN-SUFFIX,freedrive.cn,Hijacking
 - DOMAIN-SUFFIX,gclick.cn,Hijacking
 - DOMAIN-SUFFIX,goufanli100.com,Hijacking
+- DOMAIN-SUFFIX,goupaoerdai.com,Hijacking
 - DOMAIN-SUFFIX,gouwubang.com,Hijacking
+- DOMAIN-SUFFIX,gzxnlk.com,Hijacking
 - DOMAIN-SUFFIX,haoshengtoys.com,Hijacking
 - DOMAIN-SUFFIX,ichaosheng.com,Hijacking
 - DOMAIN-SUFFIX,ishop789.com,Hijacking
@@ -252,6 +257,7 @@ Rule:
 - DOMAIN-SUFFIX,newapi.com,Hijacking
 - DOMAIN-SUFFIX,pinzhitmall.com,Hijacking
 - DOMAIN-SUFFIX,poppyta.com,Hijacking
+- DOMAIN-SUFFIX,qianchuanghr.com,Hijacking
 - DOMAIN-SUFFIX,qichexin.com,Hijacking
 - DOMAIN-SUFFIX,qinchugudao.com,Hijacking
 - DOMAIN-SUFFIX,quanliyouxi.cn,Hijacking
@@ -273,9 +279,11 @@ Rule:
 - DOMAIN-SUFFIX,tcxshop.com,Hijacking
 - DOMAIN-SUFFIX,tjqonline.cn,Hijacking
 - DOMAIN-SUFFIX,topitme.com,Hijacking
+- DOMAIN-SUFFIX,tt3sm4.cn,Hijacking
 - DOMAIN-SUFFIX,tuia.cn,Hijacking
 - DOMAIN-SUFFIX,tuipenguin.com,Hijacking
 - DOMAIN-SUFFIX,tuitiger.com,Hijacking
+- DOMAIN-SUFFIX,websd8.com,Hijacking
 - DOMAIN-SUFFIX,wx16999.com,Hijacking
 - DOMAIN-SUFFIX,xiaohuau.xyz,Hijacking
 - DOMAIN-SUFFIX,yinmong.com,Hijacking
@@ -285,6 +293,7 @@ Rule:
 - DOMAIN-SUFFIX,yukhj.com,Hijacking
 - DOMAIN-SUFFIX,zhaozecheng.cn,Hijacking
 - DOMAIN-SUFFIX,zhenxinet.com,Hijacking
+- DOMAIN-SUFFIX,zlne800.com,Hijacking
 - DOMAIN-SUFFIX,zunmi.cn,Hijacking
 - DOMAIN-SUFFIX,zzd6.com,Hijacking
 - IP-CIDR,39.107.15.115/32,Hijacking
