@@ -101,8 +101,8 @@ Android：[Kitsunebi](https://play.google.com/store/apps/details?id=fun.kitsuneb
 
 - 如若**不需要**观看哔哩哔哩、爱奇艺面向港澳台的限定内容可不加「DomesticMedia.list」。
 - 如若**不需要**代理 Apple 服务可不加「Apple.list」，若加入必须在「Global.list」和「China.list」之间。
-- 如若需细化流媒体如「Youtube.list」需要加在「ForeignMedia.list」之前。
-- 如若需应用类的如「Telegram.list、Google.list、PayPal.list」需要加在「Global.list」之前。
+- 如需细化流媒体如「Youtube.list」需要加在「ForeignMedia.list」之前。
+- 如需应用类的如「Telegram.list、Google.list、PayPal.list」需要加在「Global.list」之前。
 
 一般情况下默认引入上述 8 个（如不需要 DomesticMedia 和 Apple 可减至 6 个）即可，那么为什么还有更多的如「Youtube.list、Netflix.list、Spotify.list、Mail.list」？
 
@@ -157,6 +157,10 @@ Android：[Kitsunebi](https://play.google.com/store/apps/details?id=fun.kitsuneb
 > 8.打开「淘宝」等阿里巴巴系应用时遇到「访问被拒绝」、「请检查是否使用了代理」等提示
 
 部分「阿里云」节点会导致此问题，如遇此问题主节点换成其他的。
+
+> 9.使用 Quantumult 打开淘宝、微信缓慢，邮件收发异常
+
+将设置中「更多」的「模块」改至「Loopback」。
 
 ------
 
