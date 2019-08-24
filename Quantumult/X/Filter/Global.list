@@ -529,3 +529,4 @@ DOMAIN-SUFFIX,wn.com,PROXY
 DOMAIN-SUFFIX,wolframalpha.com,PROXY
 DOMAIN-SUFFIX,x-art.com,PROXY
 DOMAIN-SUFFIX,yimg.com,PROXY
+DOMAIN,store.steampowered.com,PROXY
