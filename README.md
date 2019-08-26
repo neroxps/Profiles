@@ -48,7 +48,7 @@ Android：[Kitsunebi](https://play.google.com/store/apps/details?id=fun.kitsuneb
 |                            Clash                             |                              无                              | [Pro](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Clash/Pro.yaml) | [BacktoCN](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Clash/BacktoCN.yaml) |
 |                          Kitsunebi                           | [Basic](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Kitsunebi/Basic.conf) | [Pro](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Kitsunebi/Pro.conf) | [BacktoCN](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Kitsunebi/BacktoCN.conf) |
 | Quantumult \| [快捷指令](https://www.icloud.com/shortcuts/44f0cffd3ddf422ea28fb94380cec417) | [Basic](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/Basic.conf) | [Pro](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/Pro.conf) \| [Rejection](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/Rejection.conf) | [BacktoCN](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/BacktoCN.conf) \| [Rejection](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/Rejection.conf) |
-|                         Quantumult X                         |                              无                              | [Filter 使用说明](https://github.com/ConnersHua/Profiles/tree/master/Quantumult/X/Filter/README.md) （点击查看）<br /> [Rewrite](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Rewrite.conf) |                              无                              |
+|                         Quantumult X                         |                              无                              | [Filter 使用说明](https://github.com/ConnersHua/Profiles/tree/master/Quantumult/X/Filter/README.md) <br /> [Rewrite](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Rewrite.conf) |                              无                              |
 | Shadowrocket \| Pepi \| [快捷指令](https://www.icloud.com/shortcuts/b50d84fb063e469891f8600ab089a684) | [Basic](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Shadow/Basic.conf) | [Pro](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Shadow/Pro.conf) | [BacktoCN](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Shadow/BacktoCN.conf) |
 | Surge 2 \| [快捷指令](https://www.icloud.com/shortcuts/244585386fef4058abc9ac4b2f47ca56) | [Basic](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Basic.conf) | [Pro](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Pro.conf) | [BacktoCN](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/BacktoCN.conf) |
 | Surge 3+ \| [快捷指令](https://www.icloud.com/shortcuts/6acc9053ff6e487ea6b0f43c2f84b72c) |                              无                              | [Surge3](https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Surge3.conf) |                              无                              |
@@ -92,9 +92,9 @@ Android：[Kitsunebi](https://play.google.com/store/apps/details?id=fun.kitsuneb
 2. Advertising.list - 广告、行为分析、隐私追踪
 3. Hijacking.list - 劫持（运营商、臭名昭著的诈骗网站或恶意应用）
 4. ForeignMedia.list - 国际媒体流
-5. DomesticMedia.list - 国内媒体流（可省略）
+5. DomesticMedia.list - 国内媒体流（可不加）
 6. Global.list - 国际网站/应用
-7. Apple.list - Apple 服务（可省略）
+7. Apple.list - Apple 服务（可不加）
 9. China.list - 国内网站/应用
 
 **说明**
@@ -110,7 +110,7 @@ Android：[Kitsunebi](https://play.google.com/store/apps/details?id=fun.kitsuneb
 2. 对于一些「机场」来说为了避免有恶意用户利用节点线路滥发垃圾邮件，所以对服务器相关邮件端口进行了屏蔽，这时候可以引入「Mail.list」指定一个可收发邮件对节点。
 3. 对于一些「进阶玩家」来说其拥有高速的新加坡节点线路，为了提升 Telegram 使用体验所以会引入「Telegram.list」指定一些节点。
 
-综上所述、以此类推，独立的 .list 一般都集成在了默认的 6 条 .list 文件中，如果你没有进阶的定制化需求是**不 需 要**引入那么多的，根据需求使用才是 Ruleset/Filter 的灵活用法，不是说规则越多越好。
+综上所述、以此类推，独立的 .list 一般都集成在了默认的 6 条 .list 文件中，如果你没有进阶的定制化需求是**不 需 要**引入那么多的，根据需求使用才是 Ruleset/Filter 的灵活用法，规则不是越多越好。
 
 ------
 
@@ -126,11 +126,11 @@ Android：[Kitsunebi](https://play.google.com/store/apps/details?id=fun.kitsuneb
 
 **那么，是不是白名单模式应该把全中国的网址都写进规则？**
 
-不是，在单单该代理还是直连的问题上使用 GeoIP 规则就可以解决绝大多数的中国网站直连。请不要「民科」，谢谢。
+不是，仅是该代理还是直连的问题上使用 GeoIP 规则就可以解决绝大多数的中国网站直连。
 
 > 1.遇到连接公共场所 Wi-Fi 时验证页面无法显示？
 
-暂时关闭待验证成功后再开启，或者如校园网运营商客户端的可将相关域名或 IP 地址加入到「skip-proxy」中（主要是 Surge、Shadowrocket、Pepi(ShadowRay) 支持）。
+暂时关闭待验证成功后再开启，或者如校园网运营商客户端的可将相关域名或 IP 地址加入到「skip-proxy」中（Surge、Shadowrocket、Pepi(ShadowRay) 支持）。
 
 > 2.iOS 12 上 Siri 无法正常使用
 
@@ -146,7 +146,7 @@ Android：[Kitsunebi](https://play.google.com/store/apps/details?id=fun.kitsuneb
 
 > 4.如何解锁 TikTok？
 
-仅支持 Surge3 和 Quantumult 专业版规则，并且注意：Quantumult 用户需在「更多」里「高级」下的「模块」中选择「TUN + HTTP(Loopback)」。
+仅支持 Surge3 和 Quantumult 专业版规则，并且注意：Quantumult 用户需将「更多」里「高级」下的「模块」中选择「TUN + HTTP(Loopback)」。
 
 另外，复写规则默认设置的 TikTok 为日本区，若想切换到其他地区，在软件里的复写设置中将「JP」修改成其他地区英文缩写即可。
 
@@ -166,7 +166,7 @@ Android：[Kitsunebi](https://play.google.com/store/apps/details?id=fun.kitsuneb
 
 > 8.使用 Quantumult 打开淘宝、微信缓慢，邮件收发异常
 
-将设置中「更多」的「模块」改至「Loopback」。
+将「更多」里「高级」下的「模块」中选择「TUN + HTTP(Loopback)」。
 
 > 9.关于 Speedtest 想直连/代理？
 
