@@ -134,31 +134,27 @@ Android：[Kitsunebi](https://play.google.com/store/apps/details?id=fun.kitsuneb
 ^https?://www\.zhihu\.com header-replace User-Agent Mozilla/5.0  (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like  Gecko) Version/12.0.2 Safari/605.1.15
 ```
 
-> 4.SpeedTest 为什么没有做 DIRECT 规则？
-
-因为众口难调，做 PROXY 有人需要国内测速，做 DIRECT 有人需要国外测速，所以现在是交由 GeoIP  处理，国外的测速服务器都是代理，国内的测速服务器都是直连，默认打开时是自动选择的国外服务器（代理节点的最优选择），此时可以手动修改到国内你所在省（区）的省会测速服务器即可。
-
-> 5.如何解锁 TikTok？
+> 4.如何解锁 TikTok？
 
 仅支持 Surge3 和 Quantumult 专业版规则，并且注意：Quantumult 用户需在「更多」里「高级」下的「模块」中选择「TUN + HTTP(Loopback)」。
 
 另外，复写规则默认设置的 TikTok 为日本区，若想切换到其他地区，在软件里的复写设置中将「JP」修改成其他地区英文缩写即可。
 
-> 6.Apple News 具体怎么使用
+> 5.Apple News 具体怎么使用
 
 副作用为 macOS 及 iOS 12 以前的系统地图会变成海外 TOMTOM 版。
 
 [关于解锁 Apple News 区域限制](https://chua.pro/unlock-apple-news-regional-restrictions/)
 
-> 7.Clash 连接不上内网服务器
+> 6.Clash 连接不上内网服务器
 
 移除掉配置内的 DNS 配置。
 
-> 8.打开「淘宝」等阿里巴巴系应用时遇到「访问被拒绝」、「请检查是否使用了代理」等提示
+> 7.打开「淘宝」等阿里巴巴系应用时遇到「访问被拒绝」、「请检查是否使用了代理」等提示
 
 部分「阿里云」节点会导致此问题，如遇此问题主节点换成其他的。
 
-> 9.使用 Quantumult 打开淘宝、微信缓慢，邮件收发异常
+> 8.使用 Quantumult 打开淘宝、微信缓慢，邮件收发异常
 
 将设置中「更多」的「模块」改至「Loopback」。
 
