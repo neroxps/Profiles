@@ -135,7 +135,6 @@ DOMAIN-SUFFIX,steamgames.com,DIRECT
 DOMAIN-SUFFIX,steamusercontent.com,DIRECT
 DOMAIN-SUFFIX,steamcontent.com,DIRECT
 DOMAIN-SUFFIX,steamstatic.com,DIRECT
-DOMAIN-SUFFIX,steamcdn-a.akamaihd.net,DIRECT
 DOMAIN-SUFFIX,steamstat.us,DIRECT
 # > Tencent
 USER-AGENT,MicroMessenger%20Client,DIRECT
