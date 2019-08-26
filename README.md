@@ -108,9 +108,9 @@ Android：[Kitsunebi](https://play.google.com/store/apps/details?id=fun.kitsuneb
 
 1. 对于一些「进阶玩家」来说其拥有专用于观看流媒体的线路，比如观看限定区域的 Netflix、Hulu、HBO 等，所以引入相关 .list 建立一个策略组设置相应服务区节点线路。但对于普通用户来说，那些「Youtube.list、Hulu.list」来说都是集成在「ForeignMedia.list」中**不需要**额外引入。
 2. 对于一些「机场」来说为了避免有恶意用户利用节点线路滥发垃圾邮件，所以对服务器相关邮件端口进行了屏蔽，这时候可以引入「Mail.list」指定一个可收发邮件对节点。
-3. 对于一家「进阶玩家」来说其拥有高速的新加坡节点线路，为了提升 Telegram 使用体验所以会引入「Telegram.list」指定一些节点。
+3. 对于一些「进阶玩家」来说其拥有高速的新加坡节点线路，为了提升 Telegram 使用体验所以会引入「Telegram.list」指定一些节点。
 
-综上所述、以此类推，独立的 .list 一般都集成在了默认的 6 条 .list 文件中，如果你没有进阶的定制化需求是**不 需 要**引入那么多的，根据需求使用才是 Ruleset/Filter 的灵活用法。
+综上所述、以此类推，独立的 .list 一般都集成在了默认的 6 条 .list 文件中，如果你没有进阶的定制化需求是**不 需 要**引入那么多的，根据需求使用才是 Ruleset/Filter 的灵活用法，不是说规则越多越好。
 
 ------
 
@@ -118,13 +118,23 @@ Android：[Kitsunebi](https://play.google.com/store/apps/details?id=fun.kitsuneb
 
 ### 常见问题
 
+> 0.什么是白名单和黑名单模式？该使用哪个？
+
+⚠️ 注意：仅推荐使用白名单模式，除非你有特殊需求。
+
+简单的说，除了规则以外的请求，都走代理就是白名单模式，都走直连就是黑名单模式。
+
+**那么，是不是白名单模式应该把全中国的网址都写进规则？**
+
+不是，在单单该代理还是直连的问题上使用 GeoIP 规则就可以解决绝大多数的中国网站直连。请不要「民科」，谢谢。
+
 > 1.遇到连接公共场所 Wi-Fi 时验证页面无法显示？
 
 暂时关闭待验证成功后再开启，或者如校园网运营商客户端的可将相关域名或 IP 地址加入到「skip-proxy」中（主要是 Surge、Shadowrocket、Pepi(ShadowRay) 支持）。
 
 > 2.iOS 12 上 Siri 无法正常使用
 
-[#55](https://github.com/ConnersHua/Profiles/issues/55) 暂可判定为 Bug，多次重启可解决。
+[#55](https://github.com/ConnersHua/Profiles/issues/55) （仅）iOS 12 的 Bug，尝试多次重启直至正常。
 
 > 3.关于知乎避免强制「App 内打开」
 
@@ -157,6 +167,12 @@ Android：[Kitsunebi](https://play.google.com/store/apps/details?id=fun.kitsuneb
 > 8.使用 Quantumult 打开淘宝、微信缓慢，邮件收发异常
 
 将设置中「更多」的「模块」改至「Loopback」。
+
+> 9.关于 Speedtest 想直连/代理？
+
+规则对于 Speedtest 不是绝对的直连也不是绝对的代理，对于国内测速点是直连，对于国外测速点是代理。
+
+默认打开  Speedtest 会自动选择适用于代理服务器节点的国外测速节点，若要进行国内网速测试手动修改「测速点」搜索你所在城市或省会的拼音然后选择运营商即可。
 
 ------
 
